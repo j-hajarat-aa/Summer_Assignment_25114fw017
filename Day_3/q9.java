@@ -22,6 +22,7 @@ public class q9 {
             System.out.println("Number is prime");
         } else
             System.out.println("Number is not prime");
+            sc.close();
 
     }
 
