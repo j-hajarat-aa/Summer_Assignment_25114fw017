@@ -9,7 +9,7 @@ public class q45 {
 
         while (n != 0) {
             int r = n % 10;
-            reverse = reverse + 10 * r;
+            reverse = reverse * 10 + r;
             n = n / 10;
         }
         if (temp == reverse) {
